@@ -53,7 +53,7 @@ export default function ExpertiseSection() {
             </span>
           </h2>
           <p className="text-xl text-blue-100 max-w-4xl mx-auto leading-relaxed">
-            At Iceberg, we don't just fill positions—we find the perfect
+            At Iceberg, we don`t just fill positions—we find the perfect
             fit. We understand the critical role talent plays in your business
             success, especially in the fast-evolving Cybersecurity and
             eDiscovery industries. Our team has built a global network across 23

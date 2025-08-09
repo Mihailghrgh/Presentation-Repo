@@ -74,7 +74,9 @@ export default function NewsInsights() {
                     <div className="absolute top-3 right-3">
                       <Badge
                         className={`${
-                          categoryColors[article.category] || "bg-gray-500"
+                          categoryColors[
+                            article.category as keyof typeof categoryColors
+                          ] || "bg-gray-500"
                         } text-white border-0 shadow-lg text-xs`}
                       >
                         {article.category}
